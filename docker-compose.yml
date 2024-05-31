@@ -1,7 +1,7 @@
 version: '3'
 services:
   react-app:
-    image: gunasheelan/prod:latest
+    image: gunasheelans/prod:latest
     ports:
       - "80:80"
     restart: unless-stopped
